@@ -62,11 +62,11 @@ class EchoBot(KikClientCallback):
         elif ("snipe" == chat_message.body.lower()):
             self.client.send_chat_message(chat_message.from_jid,"▄︻̷̿┻̿═━一")
 
-        elif ("babe" == chat_message.body.lower()):
+        elif ("wisdom" == chat_message.body.lower()):
             self.client.send_chat_message(chat_message.from_jid,"quotes_list['quotes'][random.randint(1,102)]['quote']")
 
 
-# 
+
     def on_group_message_received(self, chat_message:chatting.IncomingGroupChatMessage):
          print("[+] '{}' from group ID {} says: {}".format(chat_message.from_jid, chat_message.group_jid,
                                                           chat_message.body))
