@@ -91,10 +91,8 @@ class EchoBot(KikClientCallback):
          elif ("snipe" == chat_message.body.lower()):
             self.client.send_chat_message(chat_message.group_jid,"▄︻̷̿┻̿═━一")
 
-         elif ("thots" == chat_message.body.lower()):
-            self.client.send_chat_message(chat_message.group_jid,"i love 💕😍😍😍 sex yumyumyumyum 👅👅👅im MEGA 👱🏿‍♀️ THOT💭💭💭HELLO !!!!!📢 can you H📢E📢A📢R📢 ME 💅🏼 drop my panties 👙LOW ⤵️⬇️⏬to the g r o u n d . mMMMMᎷМ🆙 🔝🔝🔝 НO0ОଠOOOOOОଠଠOoooᵒᵒᵒᵒᵒᵒᵒᵒᵒ😫😫😫😫😫👅👅👅LET 👏🏼ME👏🏼HEAR👏🏼A👏🏼HELL👏🏼YEA👏🏼DADDY (chorus: ʰᵉ'ᶫᶫ ʸᵉᵃ ᵈᵃᵈᵈʸ) if you 👉🏼👉🏼a HUGE😱😩M E G A T H O T😤💯💯💯 SMASH THAT MOTHA👌🏼FUCKKIN🙌🏼 UPDOOT↗️⤴️⤴️⤴️✅✅✔️☑️😤😤😤😤yesyesyes💦💦💦💦💦💦💦pussypussypussy👅👅👅sSｏ🅾ଠＯ0Oᵒᵒᵒ 👌🏼ᵗᶦᵍʰᵗ🙌🏼🙌🏼🙌🏼👍🏼😫😫😫🔥🔥🔥🔥💯✔️")
 
-         elif ("babe" == chat_message.body.lower()):
+         elif ("wisdom" == chat_message.body.lower()):
             self.client.send_chat_message(chat_message.group_jid,f"{quotes_list['quotes'][random.randint(1,102)]['quote']}")
 
         
